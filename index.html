@@ -1,98 +1,109 @@
 <!DOCTYPE html>
 <head>
  
-<!--
+<title>angèle</title> <!-- window title -->
  
-page 01 soleil @ wordbite
-           
--->
- 
- 
-<link rel="shortcut icon" href="{Favicon}">
+<link rel="shortcut icon" href="{favicon}">
 <link rel="alternate" type="application/rss+xml" href="{RSS}">
-<title>{title}</title> <!-- change page title here -->
  
-<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-<link href="https://fonts.googleapis.com/css?family=Anaheim|Karla:400,700" rel="stylesheet">
+<!-- font -->
+ 
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+ 
+<!-- css customization -->
  
 <style type="text/css">
 
 </style>
 </head>
+ 
 <body>
- 
 <section>
-<div class="head">
-<img src="https://66.media.tumblr.com/avatar_120d6ce5de1a_64.pnj"/> <!-- you can add an image link here to change the icon to whatever you want -->
  
-<!-- more icons can be found at this link: linearicons.com/free -->
- 
-<a href="/"><i class="lnr lnr-home" title="home"></i></a>
-<a href="/ask"><i class="lnr lnr-envelope" title="message"></i></a>
-<a href="/archive"><i class="lnr lnr-map" title="archive"></i></a>
- 
-<form action="/search" method="get" class="search">
-<input type="text" name="q" value="{SearchQuery}" class="query" placeholder="search blog">
-</form>
+<!-- sidebar begins -->
+<div class="side">
+   
+    <!-- title on top of square - keep it short -->
+    <div class="title">short and sweet or it'll overflow </div>
+   
+    <!-- don't touch -->
+    <div class="square"></div>
+   
+    <!-- change icons if you wish -->
+    <div class="icons">
+       
+        <div class="heart"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> </div>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+       
+        <!-- right icon -->
+        <div class="i-r"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> </div>
+       
+    </div>
+    <!-- icons end -->
+   
+    <!-- keep it short, one line long -->
+    <div class="like">
+        whoever liked this keep it short and sweet or it'll overflow
+    </div>
+   
 </div>
+<!-- sidebar end -->
  
-<div class="content">
- 
-<div class="title">c'est la vie</div> <!-- about title -->
- 
-<!-- start about text, use <p> to separate paragraphs -->
-This is where you'll put your text. This is how it will look to use <b>bold</b>, <i>italics</i> and <a href="link url">links</a>. This is super basic which means it should be easy to edit. If your text gets long enough it will scroll but it should look good at any length!
- 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate vehicula tortor, ut consequat arcu ullamcorper ac. Aliquam erat volutpat. Sed sit amet ipsum eu eros bibendum elementum sagittis sed ex.
-<!-- end about text -->
- 
+<!-- post begins -->
+<div class="post">
+   
+    <div class="avatar"></div>
+    <h1>the other title</h1> <!-- title next to icon -->
+   
+    <!-- if you don't want this to show you can delete it-->
+    <div class="follow">
+        <!-- replace name with your username -->
+        <a href="https://tumblr.com/follow/name">follow</a>
+    </div>
+   
+    <!-- don't touch -->
+    <div class="line"></div>
+   
+    <!-- your text goes here, write as much as you like
+        don't keep it to short -->
+    <div class="info">
+        <h2>a small title</h2>
+   
+        <p>a small paragraph<br>
+    with some space in between
+        </p>
+       
+        <p>a link looks like <a href="your-link">this</a> <br>
+        something <b>bold</b> for the brave<br>
+        or <i>italic</i> for the fancy<br>
+        plenty of options so you may as well just google it my friendo.</p>
+    </div>
+   
+    <!-- don't touch -->
+    <div class="line"></div>
+   
+    <!-- your links go here, don't add too many -->
+    <div class="links">
+        <a href="/">home</a>
+        <a href="/ask">msg</a>
+        <a href="https://wwww.tumblr.com/dashboard">exit</a>
+       
+        <!-- follow my terms of use and don't (re) move credit please -->
+        <a href="https://amboise.tumblr.com/">credit.</a>
+    </div>
+   
 </div>
- 
-<div class="links">
-<!-- start links, you can add more but you'll want to keep them in groups of 3 -->
-    <a href="/"> first </a>
-    <a href="/"> second </a>
-    <a href="/"> third </a>
-    <a href="/"> fourth </a>
-    <a href="/"> fifth </a>
-    <a href="/"> sixth </a>
-<!-- end links -->
-</div>
+<!-- post end -->
  
 </section>
  
-<div class="tumblr-controls"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
-<g id="icomoon-ignore">
-</g>
-<path d="M3.205 12.801c-1.767 0-3.199 1.432-3.199 3.199s1.432 3.199 3.199 3.199c1.766 0 3.199-1.432 3.199-3.199s-1.433-3.199-3.199-3.199zM3.205 18.133c-1.177 0-2.132-0.956-2.132-2.133s0.956-2.133 2.132-2.133c1.176 0 2.133 0.956 2.133 2.133s-0.957 2.133-2.132 2.133z"></path>
-<path d="M28.795 12.801c-1.767 0-3.199 1.432-3.199 3.199s1.432 3.199 3.199 3.199c1.766 0 3.199-1.432 3.199-3.199s-1.433-3.199-3.199-3.199zM28.795 18.133c-1.176 0-2.133-0.956-2.133-2.133s0.957-2.133 2.133-2.133c1.176 0 2.133 0.956 2.133 2.133s-0.957 2.133-2.133 2.133z"></path>
-<path d="M16 12.801c-1.767 0-3.199 1.432-3.199 3.199s1.432 3.199 3.199 3.199c1.766 0 3.199-1.432 3.199-3.199s-1.433-3.199-3.199-3.199zM16 18.133c-1.176 0-2.133-0.956-2.133-2.133s0.957-2.133 2.133-2.133c1.176 0 2.133 0.956 2.133 2.133s-0.957 2.133-2.133 2.133z"></path>
-</svg></div>
- 
-<div class="credit">
-<a href="https://wordbite.tumblr.com" title="@wordbite"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="32" viewBox="0 0 26 32"><g id="icomoon-ignore"></g><path d="M12.8 3.2c-7.093 0-12.8 5.707-12.8 12.8s5.707 12.8 12.8 12.8c7.093 0 12.8-5.707 12.8-12.8s-5.707-12.8-12.8-12.8zM12.8 27.733c-6.453 0-11.733-5.28-11.733-11.733s5.28-11.733 11.733-11.733c6.453 0 11.733 5.28 11.733 11.733s-5.28 11.733-11.733 11.733z"></path><path d="M19.467 19.040c-0.267-0.107-0.587-0.053-0.693 0.213-1.173 2.293-3.467 3.68-5.973 3.68-2.56 0-4.8-1.387-5.973-3.68-0.107-0.267-0.427-0.373-0.693-0.213-0.267 0.107-0.373 0.427-0.267 0.693 1.333 2.613 3.947 4.267 6.933 4.267 2.933 0 5.6-1.653 6.88-4.267 0.16-0.267 0.053-0.587-0.213-0.693z"></path><path d="M10.133 13.333c0 0.884-0.716 1.6-1.6 1.6s-1.6-0.716-1.6-1.6c0-0.884 0.716-1.6 1.6-1.6s1.6 0.716 1.6 1.6z"></path><path d="M18.667 13.333c0 0.884-0.716 1.6-1.6 1.6s-1.6-0.716-1.6-1.6c0-0.884 0.716-1.6 1.6-1.6s1.6 0.716 1.6 1.6z"></path></svg></a>
-</div>
- 
-<!-- scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
-<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
- 
-<script>
-jQuery.noConflict();
-(function($){
-$(document).ready(function(){
-$("a[title],img[title],[title]").style_my_tooltips({
-tip_follows_cursor:true,
-tip_delay_time:30,
-tip_fade_speed:300,
-attribute:"title"
-});
-});
-})(jQuery);
-</script>
+<!-- icon for tumblr controls - change if you wish -->
+<div class="hcontrols"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></div>
  
 </body>
 </html>

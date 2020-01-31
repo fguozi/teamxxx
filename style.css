@@ -223,7 +223,7 @@ p {
     padding:8px 10px;
     background-color:#f5f7f6; /* quote left background color */
     font-family:'Merriweather Sans', sans-serif;
-    text-transform:uppercase;
+    text-transform:none;
     font-size:9px;
     color:#555; /* quote left text color */
     border-radius:5px;

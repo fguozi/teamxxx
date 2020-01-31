@@ -214,7 +214,18 @@ p {
     color:#d7d7d7;
 }
    
-
+/* quote line */
+.quote {
+    margin-top:20px;
+    border-left:10px solid #DFE7E0; /* quote left border color */
+    padding:8px 10px;
+    background-color:#f5f7f6; /* quote left background color */
+    font-family:silkscreen;
+    text-transform:uppercase;
+    font-size:9px;
+    color:#555; /* quote left text color */
+    border-radius:5px;
+}
 
 blockquote {
     padding-left:10px;

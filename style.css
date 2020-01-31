@@ -214,22 +214,12 @@ p {
     color:#d7d7d7;
 }
    
-/* credit */
-.credit {
-    z-index:999999;
-    bottom:20px;
-    position:fixed;
-    right:24px;
-    line-height:100%;
-}
-.credit a {
-    font-size:2em;
-    color:#000;
-    border:none;
-}
- 
-.credit svg {
-    width:22px;
-    height:22px;
-    fill:#000;
+
+
+blockquote {
+    padding-left:10px;
+    margin-left:5px;
+    border-left:1px solid;
+    border-color:#aaa; 
+    margin:10px;
 }

@@ -80,7 +80,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
 body {
     background:#fafafa;
     font-size:12px;
-    font-family:'Karla',sans-serif; /* Karla & Anaheim included, more from google fonts */
+    font-family:'Merriweather Sans', sans-serif;
    color:#525252;
 }
  
@@ -180,6 +180,7 @@ section {
 p {
     margin:10px 0px 0px 0px;
     padding:0;
+    font-family:'Merriweather Sans', sans-serif;
 }
  
 .content {

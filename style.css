@@ -243,13 +243,13 @@ blockquote {
     z-index:99999999; 
 }
 
-img {
+#lester img {
     border-radius: 50%;
     -webkit-transition: -webkit-transform 0.8s ease-in-out;
             transition: transform 0.8s ease-in-out;
   }
   
-  img:hover {
+  #lester img:hover {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }

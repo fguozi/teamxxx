@@ -242,3 +242,14 @@ blockquote {
     margin-left:400px;
     z-index:99999999; 
 }
+
+img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+            transition: transform 0.8s ease-in-out;
+  }
+  
+  img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
